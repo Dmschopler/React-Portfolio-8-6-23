@@ -1,0 +1,31 @@
+@import 'daisyui/dist/full.css';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-end {
+    display: none;
+}
+
+@media (max-width: 970px) {
+    .navbar-end {
+        display: flex;
+    }
+    .nav-list {
+        display: none;
+    }
+}
+
+.slick-slider .slick-dots li button:before {
+    color: #3182ce;
+    margin-top: 20px;
+}
+
+.slick-slider .slick-dots li.slick-active button:before {
+    color: #0a04c4;
+    margin-top: 20px;
+}
