@@ -18,7 +18,7 @@ export default function Navbar() {
             </h1>
           </div>
           <div className="flex-none nav-list">
-            <ul className="menu menuhorixontal text-xl text-white p-6 font-bold tracking-wide">
+            <ul className="menu menu-horizontal text-xl text-white p-6 font-bold tracking-wide">
               <li>
                 <Link
                   to="/about"
